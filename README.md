@@ -1,5 +1,28 @@
-# movielens-recommender
+# utilisation
+Ouvrir une console en tant que *user simple* ( xterm, konsole,
+gnome-terminal… ) dans une session graphique X ( Xorg ).
+```
+git clone https://github.com/nchah/movielens-recommender.git
+```
+exporter votre liste personnelle de ratings depuis https://movielens.org/profile/settings/import-export puis renommer la liste exportée en v1-input-ratings.csv et placer ce fichier dans /data/input (remplacer le fichier d'exemple existant du même nom si nécessaire)
 
+télécharger ler dernier dataset movielens disponible : http://grouplens.org/datasets/movielens/latest/
+extraire le fichier .zip, le renommer ml-ratings-lean.csv et le placer dans /data (remplacer le fichier d'exemple existant du même nom si nécessaire)
+
+```
+cd movielens-recommender/python
+python mlr-engine.py 
+```
+# Durée de traitement approimative (Thinkpad 220 i7 8Go RAM):
+s1 : ~ 3O minutes
+s2 : instantané
+s3 : instantané
+s4 : ~ 25 minutes
+s5 :
+s6 :
+s7 :
+
+# movielens-recommender
 This implementation was part of a final project for a graduate course in Data Analytics at the University of Toronto (Winter term, 2016). 
 Our group set out to create a movie recommendation engine that would recommend movies that would have a high chance of being enjoyed by the user.
 
