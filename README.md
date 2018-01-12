@@ -10,7 +10,7 @@ exporter votre liste personnelle de ratings depuis https://movielens.org/profile
     
 (remplacer le fichier d'exemple existant du même nom si nécessaire)
 
-télécharger ler dernier dataset movielens disponible : http://grouplens.org/datasets/movielens/latest/
+télécharger le dernier dataset movielens disponible : http://grouplens.org/datasets/movielens/latest/
 extraire le fichier .zip, le renommer ml-ratings-lean.csv et le placer dans :
 
     ~/data 
