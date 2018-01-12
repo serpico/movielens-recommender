@@ -4,14 +4,14 @@ gnome-terminal… ) dans une session graphique X ( Xorg ).
 ```
 git clone https://github.com/nchah/movielens-recommender.git
 ```
-exporter votre liste personnelle de ratings depuis https://movielens.org/profile/settings/import-export puis renommer la liste exportée en v1-input-ratings.csv et placer ce fichier dans :
+exporter votre liste personnelle de ratings depuis https://movielens.org/profile/settings/import-export puis renommer la liste exportée en **v1-input-ratings.csv** et la placer ce fichier dans :
 
     ~/data/input 
     
 (remplacer le fichier d'exemple existant du même nom si nécessaire)
 
 télécharger le dernier dataset movielens disponible : http://grouplens.org/datasets/movielens/latest/
-extraire le fichier .zip, le renommer ml-ratings-lean.csv et le placer dans :
+extraire le fichier .zip, le renommer **ml-ratings-lean.csv** et le placer dans :
 
     ~/data 
     
