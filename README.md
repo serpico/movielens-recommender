@@ -4,7 +4,7 @@ gnome-terminal… ) dans une session graphique X ( Xorg ).
 ```
 git clone https://github.com/nchah/movielens-recommender.git
 ```
-exporter votre liste personnelle de ratings depuis https://movielens.org/profile/settings/import-export puis renommer la liste exportée en **v1-input-ratings.csv** et la placer ce fichier dans :
+exporter votre liste personnelle de ratings depuis https://movielens.org/profile/settings/import-export puis renommer la liste exportée en **v1-input-ratings.csv** et placer ce fichier dans :
 
     ~/data/input 
     
