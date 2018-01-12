@@ -26,9 +26,9 @@ python mlr-engine.py
     s2 : instantané
     s3 : instantané
     s4 : ~ 30 minutes
-    s5 :
-    s6 :
-    s7 :
+    s5 : instantané
+    s6 : < 1 minute
+    s7 : < 1 minute
 
 # movielens-recommender
 This implementation was part of a final project for a graduate course in Data Analytics at the University of Toronto (Winter term, 2016). 
